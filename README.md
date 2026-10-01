@@ -17,7 +17,7 @@ Site estático de 3 páginas: `index.html`, `maquinas.html`, `contato.html`, mai
 
 - [ ] Fotos reais das 6 máquinas (hoje são placeholders listrados em `maquinas.html`).
 - [ ] ID do Formspree.
-- [ ] Logo em imagem (SVG/PNG) para substituir o logotipo em texto.
+- [ ] Trocar `logo.png` pelo arquivo final da ABF (PNG com fundo transparente, ou SVG).
 - [ ] `og:image` e `og:url` quando houver domínio.
 - [ ] Horário de atendimento, se quiserem exibir (não consta nos documentos).
 - [x] Clientes removidos; energia 100% renovável confirmada.
