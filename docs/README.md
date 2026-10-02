@@ -27,6 +27,7 @@ abfusinagem/
 │   └── README.md
 ├── imgs/
 │   └── logo.png
+│   └── favicon.png
 ├── pages/
 │   ├── contato.html
 │   └── maquinas.html
