@@ -1,12 +1,12 @@
 # Site ABF Ferramentaria e Usinagem de Precisão
 
-Site estático de 3 páginas: `pages/home.html`, `pages/maquinas.html` e `pages/contato.html`, com estilos em `styles/style.css`, JavaScript em `scripts/script.js` e imagens em `imgs/`. Sem build e sem dependências. Os links são relativos.
+Site estático com página inicial em `index.html` e páginas de máquinas e contato em `pages/`. Estilos em `styles/style.css`, JavaScript em `scripts/script.js` e imagens em `imgs/`. Sem build e sem dependências. Os links são relativos.
 
 ## Publicar no GitHub Pages
 
 1. Crie um repositório no GitHub e envie a estrutura completa de pastas para a raiz do repositório.
 2. No repositório: Settings > Pages > Source: "Deploy from a branch" > branch `main`, pasta `/ (root)` > Save.
-3. Em alguns minutos o site fica em `https://SEU-USUARIO.github.io/NOME-DO-REPO/pages/home.html`.
+3. Em alguns minutos o site fica em `https://SEU-USUARIO.github.io/NOME-DO-REPO/`.
 
 ## Formulário
 
