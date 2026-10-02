@@ -1,29 +1,110 @@
-# Site ABF Ferramentaria e Usinagem de Precisão
+ABF Ferramentaria e Usinagem de Precisão
 
-Site estático com página inicial em `index.html` e páginas de máquinas e contato em `pages/`. Estilos em `styles/style.css`, JavaScript em `scripts/script.js` e imagens em `imgs/`. Sem build e sem dependências. Os links são relativos.
+Site institucional desenvolvido para a ABF Ferramentaria e Usinagem de Precisão, empresa do setor de usinagem.
 
-## Publicar no GitHub Pages
+O projeto foi desenvolvido com foco em apresentar a empresa, seus serviços, máquinas e informações de contato por meio de uma interface moderna, objetiva e responsiva.
 
-1. Crie um repositório no GitHub e envie a estrutura completa de pastas para a raiz do repositório.
-2. No repositório: Settings > Pages > Source: "Deploy from a branch" > branch `main`, pasta `/ (root)` > Save.
-3. Em alguns minutos o site fica em `https://SEU-USUARIO.github.io/NOME-DO-REPO/`.
+Atualmente, o projeto consiste exclusivamente em frontend, desenvolvido com HTML, CSS e JavaScript. Sua estrutura foi organizada de forma a permitir futuras expansões, como integração com backend, banco de dados, formulários funcionais e outras funcionalidades.
 
-## Formulário
+🎯 Objetivo
 
-1. Crie um formulário em formspree.io com o e-mail abfusinagem@gmail.com.
-2. Em `pages/contato.html`, troque `SEU_ID_AQUI` pelo ID (o trecho depois de `/f/`).
+O objetivo do projeto é criar uma presença digital para a ABF, permitindo que clientes e potenciais parceiros conheçam melhor a empresa, seus serviços e sua estrutura.
 
-## TODOs
+O site busca apresentar as informações de forma clara e profissional, utilizando a identidade visual da empresa e proporcionando uma navegação simples ao usuário.
 
-- [ ] Fotos reais das 6 máquinas (hoje são placeholders listrados em `pages/maquinas.html`).
-- [ ] ID do Formspree.
-- [ ] Trocar `imgs/logo.png` pelo arquivo final da ABF (PNG com fundo transparente, ou SVG).
-- [ ] `og:image` e `og:url` quando houver domínio.
-- [ ] Horário de atendimento, se quiserem exibir (não consta nos documentos).
-- [x] Clientes removidos; energia 100% renovável confirmada.
+🚀 Tecnologias utilizadas
+HTML5 — estrutura das páginas
+CSS3 — estilização, layout e responsividade
+JavaScript — interações e comportamentos da interface
+Git/GitHub — versionamento do projeto
+📁 Estrutura do projeto
+abfusinagem/
+├── docs/
+│   └── README.md
+├── imgs/
+│   └── logo.png
+├── pages/
+│   ├── contato.html
+│   └── maquinas.html
+├── scripts/
+│   └── script.js
+├── styles/
+│   └── style.css
+└── index.html
+Principais arquivos e diretórios
 
-## 3 variações de headline para o hero
+index.html
+Página principal do site.
 
-1. Usinagem de precisão que impulsiona o seu negócio (usada; vem do PDF)
-2. Do projeto à peça pronta, com precisão e prazo
-3. Peças usinadas sob medida, da unidade à larga escala
+pages/
+Contém as páginas complementares do projeto, incluindo informações sobre as máquinas e contato.
+
+styles/
+Contém os arquivos CSS responsáveis pela aparência, layout e responsividade do site.
+
+scripts/
+Contém os arquivos JavaScript utilizados nas interações da interface.
+
+imgs/
+Armazena os recursos visuais utilizados no projeto. Atualmente, contém o logotipo da empresa em logo.png.
+
+docs/
+Contém a documentação do projeto, incluindo este README.
+
+🖥️ Funcionalidades atuais
+Página inicial institucional
+Apresentação da empresa
+Apresentação dos serviços
+Página de máquinas
+Página de contato
+Navegação entre páginas
+Layout responsivo
+Identidade visual personalizada
+Estrutura frontend preparada para futuras expansões
+🔧 Estado atual do projeto
+
+O projeto encontra-se em sua primeira versão de desenvolvimento.
+
+Neste momento, o foco está na construção da interface frontend e na apresentação das informações institucionais da empresa.
+
+O projeto não possui backend, banco de dados ou sistema de gerenciamento de conteúdo. As informações apresentadas atualmente são inseridas diretamente nos arquivos do frontend.
+
+A estrutura foi desenvolvida de forma que novas funcionalidades possam ser adicionadas posteriormente sem a necessidade de reconstruir todo o projeto.
+
+🔮 Possíveis expansões
+
+O projeto pode evoluir futuramente com a implementação de novas funcionalidades, como:
+
+Integração com backend
+Banco de dados
+Formulário de contato funcional
+Envio de mensagens por e-mail
+Galeria de máquinas e projetos
+Cadastro e gerenciamento de máquinas
+Área administrativa
+Sistema de gerenciamento de conteúdo
+Integração com domínio próprio
+Melhorias de SEO
+Melhorias de acessibilidade
+Otimização de desempenho
+Integração com ferramentas de análise de acesso
+📌 Próximos passos
+
+A evolução do projeto poderá incluir a substituição de conteúdos provisórios por informações e imagens definitivas da empresa, além da implementação gradual das funcionalidades necessárias para transformar o site em uma solução mais completa.
+
+A proposta é utilizar a versão atual como base frontend do site institucional da ABF, permitindo que novas tecnologias e funcionalidades sejam incorporadas conforme as necessidades da empresa.
+
+🌐 Publicação
+
+Por utilizar atualmente apenas tecnologias de frontend, o projeto pode ser executado diretamente em um navegador e hospedado em serviços para sites estáticos.
+
+Não há necessidade de backend, banco de dados ou processo de build para executar a versão atual.
+
+👨‍💻 Desenvolvimento
+
+Projeto desenvolvido por Otávio Pinheiro Garcia.
+
+O projeto foi desenvolvido com foco em desenvolvimento web, frontend e criação de uma solução digital para uma empresa do setor de usinagem.
+
+ABF Ferramentaria e Usinagem de Precisão
+Projeto frontend desenvolvido como base para o site institucional da empresa, com possibilidade de futuras expansões e integrações.
