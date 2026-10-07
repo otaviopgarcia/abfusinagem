@@ -284,6 +284,16 @@ nav a[aria-current=page] {
     background: repeating-linear-gradient(135deg, #0c1d4d 0 10px, #0a1a3f 10px 20px)
 }
 
+.mach .card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    display: block
+}
+
 .badges {
     display: flex;
     flex-wrap: wrap;
